@@ -8,7 +8,7 @@ import psycopg2
 "SO GIVING MULTIPLE ROWS OR ROWS MORE THAN COLUMNS WILL RESULT IN AN ERROR"
 
 connection = psycopg2.connect(user="postgres",
-                                  password="19990716",    # CHANGE TO YOUR PASSWORD BEFORE RUNNING THE CODE
+                                  password="pass",    # CHANGE TO YOUR PASSWORD BEFORE RUNNING THE CODE
                                   host="127.0.0.1",
                                   port="5432",
                                   database="postgres"
